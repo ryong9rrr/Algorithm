@@ -1,5 +1,8 @@
 # 🌈 알고리즘 연습
 
+📌 매일매일 풀고 커밋하기
+📌 README 수정 시 `git config --global core.autocrlf true`
+
 ## [백준](https://www.acmicpc.net/)
 
 **python**
