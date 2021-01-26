@@ -5,8 +5,9 @@
 **python**
 
 - 단계별로 풀어보기
-  - [if문](https://www.acmicpc.net/step/4)
-  - [for문](https://www.acmicpc.net/step/3)
+  - if문
+  - for문
+  - while문 -ving
 
 ## [프로그래머스](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
