@@ -12,6 +12,13 @@
   - if문
   - for문
   - while문
+  - 1차원 배열 -ing
+
+## [코드업](https://codeup.kr/problemsetsol.php?psid=23)
+
+**python**
+
+- 기초 100제
 
 ## [프로그래머스](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
