@@ -12,7 +12,8 @@
   - if문
   - for문
   - while문
-  - 1차원 배열 -ing
+  - 1차원 배열
+  - 함수 -ing
 
 ## [코드업](https://codeup.kr/problemsetsol.php?psid=23)
 
