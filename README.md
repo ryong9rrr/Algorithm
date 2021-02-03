@@ -13,7 +13,8 @@
   - for문
   - while문
   - 1차원 배열
-  - 함수 -ing
+  - 함수
+  - 문자열 ~ing
 
 ## [코드업](https://codeup.kr/problemsetsol.php?psid=23)
 
