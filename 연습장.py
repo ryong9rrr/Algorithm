@@ -1,5 +1,13 @@
 import sys
-input = sys.stdin.readline
-n = input()
 
-print(n)
+a = sys.stdin.readline().split()
+
+b = list(input())
+
+c = list(sys.stdin.readline())
+
+
+
+print(a)
+print(b)
+print(c)
