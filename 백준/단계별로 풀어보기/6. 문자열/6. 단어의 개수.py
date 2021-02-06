@@ -1,5 +1,6 @@
 import sys
 input = sys.stdin.readline
-n = input()
 
-print(n)
+s = input().split()
+
+print(len(s))
