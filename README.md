@@ -14,7 +14,8 @@
   - while문
   - 1차원 배열
   - 함수
-  - 문자열 ~ing
+  - 문자열
+  - 기본 수학 1 -ing
 
 ## [코드업](https://codeup.kr/problemsetsol.php?psid=23)
 
