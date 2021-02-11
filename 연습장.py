@@ -1,36 +1,24 @@
 import sys
 input = sys.stdin.readline
 
-A, B, V = map(int, input().split())
+T = int(input())
 
-day = 0
-loc = 0
+for _ in range(T) :
+    H, W, N = map(int, input().split())
 
-while True :
-    day += 1
-    loc += A
-    if loc < V :
-        loc -= B
-    elif loc >= V :
-        break
+    if N%H != 0 :
+        x = str(N % H)
 
-print(day)
+        if (N//H)+1  < 10 :
+            y = '0'+str((N // H) + 1)
+        elif (N//H)+1 >= 10 :
+            y = str((N // H) + 1)
 
-#달팽이.. 시간초과
+    elif N%H == 0 :
+        x = str(H)
+        if N//H < 10 : 
+            y = '0'+ str(N//H)
+        elif N//H >= 10 :
+            y = str(N//H) 
 
-import sys
-input = sys.stdin.readline
-
-A, B, V = map(int, input().split())
-
-day = 1
-loc = A
-
-while loc < V :
-    loc -= B
-    day += 1
-    loc += A
-
-print(day)
-
-# 이것도 시간초과
+    print(x+y)
