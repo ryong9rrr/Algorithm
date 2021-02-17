@@ -1,24 +1,12 @@
-import sys
-input = sys.stdin.readline
+t = int(input())
 
-T = int(input())
-
-for _ in range(T) :
-    H, W, N = map(int, input().split())
-
-    if N%H != 0 :
-        x = str(N % H)
-
-        if (N//H)+1  < 10 :
-            y = '0'+str((N // H) + 1)
-        elif (N//H)+1 >= 10 :
-            y = str((N // H) + 1)
-
-    elif N%H == 0 :
-        x = str(H)
-        if N//H < 10 : 
-            y = '0'+ str(N//H)
-        elif N//H >= 10 :
-            y = str(N//H) 
-
-    print(x+y)
+for _ in range(t):
+    floor = int(input())
+    num = int(input())
+    f0 = [x for x in range(1, num+1)]
+    for k in range(floor):
+        for i in range(1, num):
+            f0[i] += f0[i-1]
+        print(f0)  # 프린트문을 추가
+    print(f0[-1])
+    
