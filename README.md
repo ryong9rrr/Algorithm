@@ -23,10 +23,9 @@
 
 ## [프로그래머스](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
-**JS, python**
+21-03-09 부터 velog에만 업로드
 
-- Level 1
-  - 진행중..
+> <https://velog.io/@ryong9rrr?tag=%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4>
 
 ---
 
